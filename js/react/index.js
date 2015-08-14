@@ -11,6 +11,8 @@
 		var weddingevents = "Wedding Events"; 
 		var accommodations = "Accommodations";
 		var registry = "Registry";
+		var photos = "Photo Album";
+		var weddingparty = "Wedding Party";
 	
 
 		// ****
@@ -39,6 +41,16 @@
     			return <div>{registry}</div>;
 			}
 		});
+		var Photos = React.createClass({
+			render: function() {
+    			return <div>{photos}</div>;
+			}
+		});
+		var Weddingparty = React.createClass({
+			render: function() {
+    			return <div>{weddingevents}</div>;
+			}
+		});
 	 
 
 		// render
@@ -52,6 +64,10 @@
 		React.render(<Accommodations />, document.getElementById('accommodations-nav'));
 		React.render(<Registry />, document.getElementById('registry-title'));
 		React.render(<Registry />, document.getElementById('registry-nav'));
+		React.render(<Photos />, document.getElementById('photos-title'));
+		React.render(<Photos />, document.getElementById('photos-nav'));
+		React.render(<Weddingparty />, document.getElementById('wp-title'));
+		React.render(<Weddingparty />, document.getElementById('wp-nav'));
 		
 
 
