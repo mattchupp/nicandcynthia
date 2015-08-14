@@ -1,5 +1,9 @@
+/*
+	scss for navigation menu that is on the top
 
+*/
 
+/* Hide menu when screen size is larger than $screen-size-medium */
 @media screen and (min-width: $screen-size-medium) {
 	.menu {
 		visibility: hidden; 
