@@ -1,0 +1,15 @@
+@media screen and (min-width: 720px) {
+  /* line 2, ../sass/_navigationmenu.scss */
+  .menu {
+    visibility: hidden;
+  }
+}
+/* line 5, ../sass/style.scss */
+body {
+  background-color: #2a3440;
+}
+
+/* line 9, ../sass/style.scss */
+.name {
+  color: white;
+}
