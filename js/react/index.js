@@ -9,6 +9,8 @@
 		var welcome = "Welcome";
 		var about = "About";
 		var weddingevents = "Wedding Events"; 
+		var accommodations = "Accommodations";
+		var registry = "Registry";
 	
 
 		// ****
@@ -27,12 +29,29 @@
     			return <div>{weddingevents}</div>;
 			}
 		});
+		var Accommodations = React.createClass({
+			render: function() {
+    			return <div>{accommodations}</div>;
+			}
+		});
+		var Registry = React.createClass({
+			render: function() {
+    			return <div>{registry}</div>;
+			}
+		});
 	 
 
 		// render
 		React.render(<Welcome />, document.getElementById('welcome-title'));
+		React.render(<Welcome />, document.getElementById('welcome-nav'));
 		React.render(<About />, document.getElementById('about-title'));
+		React.render(<About />, document.getElementById('about-nav'));
 		React.render(<Weddingevents />, document.getElementById('we-title'));
+		React.render(<Weddingevents />, document.getElementById('we-nav'));
+		React.render(<Accommodations />, document.getElementById('accommodations-title'));
+		React.render(<Accommodations />, document.getElementById('accommodations-nav'));
+		React.render(<Registry />, document.getElementById('registry-title'));
+		React.render(<Registry />, document.getElementById('registry-nav'));
 		
 
 
