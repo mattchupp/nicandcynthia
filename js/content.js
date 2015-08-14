@@ -1,4 +1,6 @@
-
+/* 
+  Loads in all the conent when button is pressed in naviation bar 
+*/
 
 
 $(function () {
