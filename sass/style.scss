@@ -1,9 +1,14 @@
 
 @import "_variables";
 @import "_navigationmenu";
+@import "_bootstrap";
 
 body {
 	background-color: #2a3440; 
+}
+
+.title {
+	font-family: 'Dancing Script', cursive;
 }
 
 .content {
