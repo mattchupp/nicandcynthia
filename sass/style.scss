@@ -8,6 +8,10 @@ body {
 	background-color: #2a3440; 
 }
 
+.footer {
+	height: 100px;
+}
+
 .title {
 	font-family: 'Dancing Script', cursive;
 }
@@ -19,7 +23,12 @@ body {
 .content {
 	text-align: center;
 	color: $content-coler;
-	margin-top: 300px;
+	margin-top: 250px;
+}
+
+.welcome-img {
+	height: 400px;
+	width: 90%;
 }
 
 .menu {
