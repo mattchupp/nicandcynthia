@@ -9282,39 +9282,68 @@ body {
 
 /* line 11, ../sass/style.scss */
 .footer {
+  padding-top: 5px;
   height: 100px;
+  font-size: 10px;
+}
+/* line 15, ../sass/style.scss */
+.footer .dev-tag {
+  text-align: center;
+  color: white;
+}
+/* line 18, ../sass/style.scss */
+.footer .dev-tag a {
+  color: white;
+}
+/* line 21, ../sass/style.scss */
+.footer .dev-tag a:hover {
+  text-decoration: underline;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .title {
   font-family: 'Dancing Script', cursive;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .big-text {
   font-size: 60px;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 41, ../sass/style.scss */
 .content {
   text-align: center;
   color: white;
   margin-top: 250px;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .welcome-img {
   height: 400px;
   width: 90%;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
+.welcome-text {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 85%;
+  padding-bottom: 25px;
+}
+
+/* line 59, ../sass/style.scss */
 .menu {
   padding-bottom: 80px;
   position: relative;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .content-container {
   position: relative;
   /*background-color: black;*/
@@ -9325,19 +9354,19 @@ body {
   margin-right: auto;
 }
 @media screen and (min-width: 720px) {
-  /* line 39, ../sass/style.scss */
+  /* line 64, ../sass/style.scss */
   .content-container {
     width: 680px;
   }
 }
 @media screen and (min-width: 850px) {
-  /* line 39, ../sass/style.scss */
+  /* line 64, ../sass/style.scss */
   .content-container {
     width: 800px;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 39, ../sass/style.scss */
+  /* line 64, ../sass/style.scss */
   .content-container {
     width: 900px;
   }
