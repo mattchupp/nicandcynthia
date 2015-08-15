@@ -12,12 +12,38 @@ body {
 	font-family: 'Dancing Script', cursive;
 }
 
+.big-text {
+	font-size: 60px;
+}
+
 .content {
 	text-align: center;
-	color: white;
+	color: $content-coler;
 	margin-top: 300px;
 }
 
-.grid {
-	text-align: center;
+.menu {
+	padding-bottom: 80px;
+	position: relative;
+}
+
+.content-container {
+	position: relative;
+	background-color: black;
+	height: auto;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+	@media screen and (min-width: $screen-size-medium) {
+		width: 680px;
+	}
+
+	@media screen and (min-width: $screen-size-break-container) {
+		width: 800px;
+	}
+
+	@media screen and (min-width: $screen-size-break-container-large) {
+		width: 900px;
+	}
 }

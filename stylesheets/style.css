@@ -9286,13 +9286,47 @@ body {
 }
 
 /* line 15, ../sass/style.scss */
+.big-text {
+  font-size: 60px;
+}
+
+/* line 19, ../sass/style.scss */
 .content {
   text-align: center;
   color: white;
   margin-top: 300px;
 }
 
-/* line 21, ../sass/style.scss */
-.grid {
-  text-align: center;
+/* line 25, ../sass/style.scss */
+.menu {
+  padding-bottom: 80px;
+  position: relative;
+}
+
+/* line 30, ../sass/style.scss */
+.content-container {
+  position: relative;
+  background-color: black;
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 720px) {
+  /* line 30, ../sass/style.scss */
+  .content-container {
+    width: 680px;
+  }
+}
+@media screen and (min-width: 850px) {
+  /* line 30, ../sass/style.scss */
+  .content-container {
+    width: 800px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 30, ../sass/style.scss */
+  .content-container {
+    width: 900px;
+  }
 }
