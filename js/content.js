@@ -1,5 +1,5 @@
 /* 
-  Loads in all the conent when button is pressed in naviation bar 
+  Loads in all the content when button is pressed in naviation bar 
 */
 
 
@@ -94,6 +94,6 @@ $(function () {
         $(".welcome-content").show();
       }
 
-    });
+    }); // end function for click 
 
 });

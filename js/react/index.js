@@ -15,7 +15,7 @@
 		var weddingparty = "Wedding Party";
 
 		var weddingdate = "August 20, 2016";
-		var nameheader = "Nic &amp; Cynthia";
+		var nameheader = "Nic & Cynthia";
 	
 
 		// ****
