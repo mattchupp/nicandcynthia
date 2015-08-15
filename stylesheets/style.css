@@ -9317,7 +9317,8 @@ body {
 /* line 39, ../sass/style.scss */
 .content-container {
   position: relative;
-  background-color: black;
+  /*background-color: black;*/
+  -webkit-backdrop-filter: blur(5px) grayscale(60%);
   height: auto;
   width: auto;
   margin-left: auto;
