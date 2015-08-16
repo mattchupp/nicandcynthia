@@ -15,6 +15,10 @@
 		var weddingparty = "Wedding Party";
 
 		var weddingdate = "August 20, 2016";
+		var weddingtime = "12:00pm - 1:00pm";
+		var receptiondate = weddingdate;
+		var receptiontime = "3:00pm - 7:00pm";
+
 		var nameheader = "Nic & Cynthia";
 	
 
@@ -59,6 +63,21 @@
     			return <div>{weddingdate}</div>;
 			}
 		});
+		var Receptiondate = React.createClass({
+			render: function() {
+    			return <div>{weddingdate}</div>;
+			}
+		});
+		var Weddingtime = React.createClass({
+			render: function() {
+    			return <div>{weddingtime}</div>;
+			}
+		});
+		var Receptiontime = React.createClass({
+			render: function() {
+    			return <div>{receptiontime}</div>;
+			}
+		});
 		var Nameheader = React.createClass({
 			render: function() {
     			return <div>{nameheader}</div>;
@@ -66,30 +85,48 @@
 		});
 	 
 
-		// render
+		// welcome page render content
+		// wedding date
+		React.render(<Weddingdate />, document.getElementById('welcome-wedding-date')); 
+		React.render(<Weddingdate />, document.getElementById('we-wedding-date'));
+		// wedding time
+		React.render(<Weddingtime />, document.getElementById('wedding-time'));
+
+		// reception date
+		React.render(<Receptiondate />, document.getElementById('we-reception-date'));		
+		// reception time
+		React.render(<Receptiontime />, document.getElementById('reception-time'));
+
+		React.render(<Nameheader />, document.getElementById('name-header'));
+
 		React.render(<Welcome />, document.getElementById('welcome-title'));
 		React.render(<Welcome />, document.getElementById('welcome-nav'));
 
+
+		// about page render content
 		React.render(<About />, document.getElementById('about-title'));
 		React.render(<About />, document.getElementById('about-nav'));
 
+		// wedding events page render content
 		React.render(<Weddingevents />, document.getElementById('we-title'));
 		React.render(<Weddingevents />, document.getElementById('we-nav'));
 
+		// accommodations page render content
 		React.render(<Accommodations />, document.getElementById('accommodations-title'));
 		React.render(<Accommodations />, document.getElementById('accommodations-nav'));
 
+		// registry page render content
 		React.render(<Registry />, document.getElementById('registry-title'));
 		React.render(<Registry />, document.getElementById('registry-nav'));
 
+		// photos page render content
 		React.render(<Photos />, document.getElementById('photos-title'));
 		React.render(<Photos />, document.getElementById('photos-nav'));
 
+		// wedding party page render content
 		React.render(<Weddingparty />, document.getElementById('wp-title'));
 		React.render(<Weddingparty />, document.getElementById('wp-nav'));
 
-		React.render(<Weddingdate />, document.getElementById('wedding-date'));
-		React.render(<Nameheader />, document.getElementById('name-header'));
 		
 
 
