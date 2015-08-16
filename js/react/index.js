@@ -12,7 +12,7 @@
 		var accommodations = "Accommodations";
 		var registry = "Registry";
 		var photos = "Photo Album";
-		var weddingparty = "Wedding Party";
+		// var weddingparty = "Wedding Party";
 
 		var weddingdate = "August 20, 2016";
 		var weddingtime = "12:00pm - 1:00pm";
@@ -53,11 +53,13 @@
     			return <div>{photos}</div>;
 			}
 		});
+/*
 		var Weddingparty = React.createClass({
 			render: function() {
     			return <div>{weddingparty}</div>;
 			}
 		});
+*/
 		var Weddingdate = React.createClass({
 			render: function() {
     			return <div>{weddingdate}</div>;
@@ -99,6 +101,7 @@
 
 		React.render(<Nameheader />, document.getElementById('name-header'));
 
+
 		React.render(<Welcome />, document.getElementById('welcome-title'));
 		React.render(<Welcome />, document.getElementById('welcome-nav'));
 
@@ -124,8 +127,8 @@
 		React.render(<Photos />, document.getElementById('photos-nav'));
 
 		// wedding party page render content
-		React.render(<Weddingparty />, document.getElementById('wp-title'));
-		React.render(<Weddingparty />, document.getElementById('wp-nav'));
+		// React.render(<Weddingparty />, document.getElementById('wp-title'));
+		// React.render(<Weddingparty />, document.getElementById('wp-nav'));
 
 		
 
