@@ -51,7 +51,7 @@
 		});
 		var Weddingparty = React.createClass({
 			render: function() {
-    			return <div>{weddingevents}</div>;
+    			return <div>{weddingparty}</div>;
 			}
 		});
 		var Weddingdate = React.createClass({
