@@ -6,13 +6,21 @@
 	scss for navigation menu that is on the top
 
 */
-/* Hide menu when screen size is larger than $screen-size-medium */
-@media screen and (min-width: 720px) {
-  /* line 8, ../sass/_navigationmenu.scss */
-  .menu {
-    visibility: hidden;
-  }
+/* line 6, ../sass/_navigationmenu.scss */
+.menu {
+  text-align: center;
 }
+/* line 9, ../sass/_navigationmenu.scss */
+.menu li:hover {
+  background-color: black;
+}
+
+/* line 17, ../sass/_navigationmenu.scss */
+.nav-container {
+  float: none;
+  display: inline-block;
+}
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -9324,14 +9332,14 @@ body {
 
 /* line 46, ../sass/style.scss */
 .welcome-img {
-  height: 400px;
-  width: 90%;
+  height: 500px;
+  width: 450px;
 }
 
 /* line 50, ../sass/style.scss */
 .we-img {
-  height: 400px;
-  width: 90%;
+  height: 500px;
+  width: 450px;
 }
 
 /* line 54, ../sass/style.scss */

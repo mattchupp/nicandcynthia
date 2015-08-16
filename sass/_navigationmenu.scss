@@ -3,9 +3,20 @@
 
 */
 
-/* Hide menu when screen size is larger than $screen-size-medium */
-@media screen and (min-width: $screen-size-medium) {
-	.menu {
-		visibility: hidden; 
+.menu {
+	text-align: center;
+	li {
+		&:hover {
+			background-color: black;
+		}
+	}
+	ul {
 	}
 }
+
+.nav-container {
+	float: none;
+	display: inline-block;
+}
+
+
