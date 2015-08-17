@@ -8,17 +8,30 @@
 */
 /* line 6, ../sass/_navigationmenu.scss */
 .menu {
-  text-align: center;
+  /*text-align: center;*/
 }
 /* line 9, ../sass/_navigationmenu.scss */
 .menu li:hover {
   background-color: black;
 }
 
-/* line 17, ../sass/_navigationmenu.scss */
+@media screen and (min-width: 720px) {
+  /* line 18, ../sass/_navigationmenu.scss */
+  .menu {
+    text-align: center;
+  }
+
+  /* line 21, ../sass/_navigationmenu.scss */
+  .nav-container {
+    float: none;
+    display: inline-block;
+  }
+}
+/* line 27, ../sass/_navigationmenu.scss */
 .nav-container {
   float: none;
-  display: inline-block;
+  /*display: inline-block;*/
+  text-align: center;
 }
 
 /*!

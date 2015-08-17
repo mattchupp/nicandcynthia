@@ -4,7 +4,7 @@
 */
 
 .menu {
-	text-align: center;
+	/*text-align: center;*/
 	li {
 		&:hover {
 			background-color: black;
@@ -14,9 +14,20 @@
 	}
 }
 
+@media screen and (min-width: $screen-size-medium) {
+	.menu {
+		text-align: center;
+	}
+	.nav-container {
+		float: none;
+		display: inline-block;
+	}
+}	
+
 .nav-container {
 	float: none;
-	display: inline-block;
+	/*display: inline-block;*/
+	text-align: center;
 }
 
 
