@@ -9345,7 +9345,7 @@ body {
 
 /* line 46, ../sass/style.scss */
 .welcome-img {
-  height: 500px;
+  height: 400px;
   width: 450px;
 }
 
@@ -9373,8 +9373,7 @@ body {
 /* line 67, ../sass/style.scss */
 .content-container {
   position: relative;
-  /*background-color: black;*/
-  -webkit-backdrop-filter: blur(5px) grayscale(60%);
+  background-color: black;
   height: auto;
   width: auto;
   margin-left: auto;
