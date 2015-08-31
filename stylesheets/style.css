@@ -9365,12 +9365,18 @@ body {
 }
 
 /* line 62, ../sass/style.scss */
+.location-map {
+  height: 500px;
+  width: 450px;
+}
+
+/* line 67, ../sass/style.scss */
 .menu {
   padding-bottom: 80px;
   position: relative;
 }
 
-/* line 67, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .content-container {
   position: relative;
   background-color: black;
@@ -9380,19 +9386,19 @@ body {
   margin-right: auto;
 }
 @media screen and (min-width: 720px) {
-  /* line 67, ../sass/style.scss */
+  /* line 72, ../sass/style.scss */
   .content-container {
     width: 680px;
   }
 }
 @media screen and (min-width: 850px) {
-  /* line 67, ../sass/style.scss */
+  /* line 72, ../sass/style.scss */
   .content-container {
     width: 800px;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 67, ../sass/style.scss */
+  /* line 72, ../sass/style.scss */
   .content-container {
     width: 900px;
   }
