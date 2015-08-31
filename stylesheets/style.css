@@ -9346,13 +9346,13 @@ body {
 /* line 46, ../sass/style.scss */
 .welcome-img {
   height: 400px;
-  width: 450px;
+  width: 350px;
 }
 
 /* line 50, ../sass/style.scss */
 .we-img {
-  height: 500px;
-  width: 450px;
+  height: 400px;
+  width: 350px;
 }
 
 /* line 54, ../sass/style.scss */
@@ -9366,8 +9366,8 @@ body {
 
 /* line 62, ../sass/style.scss */
 .location-map {
-  height: 500px;
-  width: 450px;
+  height: 400px;
+  width: 350px;
 }
 
 /* line 67, ../sass/style.scss */
