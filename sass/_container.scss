@@ -1,0 +1,23 @@
+/* Container for content */
+
+.content-container {
+	position: relative;
+	background-color: black;
+	// -webkit-backdrop-filter: blur(5px) grayscale(60%);
+	height: auto;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+	@media screen and (min-width: $screen-size-medium) {
+		width: 680px;
+	}
+
+	@media screen and (min-width: $screen-size-break-container) {
+		width: 800px;
+	}
+
+	@media screen and (min-width: $screen-size-break-container-large) {
+		width: 900px;
+	}
+}

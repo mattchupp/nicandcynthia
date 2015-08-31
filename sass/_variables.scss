@@ -9,4 +9,12 @@ $screen-size-break-container: 850px;
 $screen-size-break-container-large: 1000px;
 
 
-$content-coler: white; 
+$content-coler: white;
+
+/* Image height and width for the small screen breakpoint */
+$img-small-width: 300px;
+$img-small-height: 300px;
+
+/* Image height and width for the medium screen breakpoint */
+$img-medium-width: 500px;
+$img-medium-height: 500px;

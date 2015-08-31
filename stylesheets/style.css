@@ -2,6 +2,8 @@
 /*
 	Variables for style.scss
 */
+/* Image height and width for the small screen breakpoint */
+/* Image height and width for the medium screen breakpoint */
 /*
 	scss for navigation menu that is on the top
 
@@ -9296,87 +9298,8 @@ button.close {
   vertical-align: middle;
 }
 
-/* line 7, ../sass/style.scss */
-body {
-  background-color: #2a3440;
-}
-
-/* line 11, ../sass/style.scss */
-.footer {
-  padding-top: 5px;
-  height: 100px;
-  font-size: 10px;
-}
-/* line 15, ../sass/style.scss */
-.footer .dev-tag {
-  text-align: center;
-  color: white;
-}
-/* line 18, ../sass/style.scss */
-.footer .dev-tag a {
-  color: white;
-}
-/* line 20, ../sass/style.scss */
-.footer .dev-tag a:hover {
-  text-decoration: underline;
-}
-
-/* line 27, ../sass/style.scss */
-.title {
-  font-family: 'Dancing Script', cursive;
-}
-
-/* line 31, ../sass/style.scss */
-.big-text {
-  font-size: 60px;
-}
-
-/* line 35, ../sass/style.scss */
-.bold {
-  font-weight: bold;
-}
-
-/* line 40, ../sass/style.scss */
-.content {
-  text-align: center;
-  color: white;
-  margin-top: 250px;
-}
-
-/* line 46, ../sass/style.scss */
-.welcome-img {
-  height: 400px;
-  width: 300px;
-}
-
-/* line 50, ../sass/style.scss */
-.we-img {
-  height: 400px;
-  width: 300px;
-}
-
-/* line 54, ../sass/style.scss */
-.welcome-text {
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  width: 85%;
-  padding-bottom: 25px;
-}
-
-/* line 62, ../sass/style.scss */
-.location-map {
-  height: 400px;
-  width: 300px;
-}
-
-/* line 67, ../sass/style.scss */
-.menu {
-  padding-bottom: 80px;
-  position: relative;
-}
-
-/* line 72, ../sass/style.scss */
+/* Container for content */
+/* line 3, ../sass/_container.scss */
 .content-container {
   position: relative;
   background-color: black;
@@ -9386,20 +9309,121 @@ body {
   margin-right: auto;
 }
 @media screen and (min-width: 720px) {
-  /* line 72, ../sass/style.scss */
+  /* line 3, ../sass/_container.scss */
   .content-container {
     width: 680px;
   }
 }
 @media screen and (min-width: 850px) {
-  /* line 72, ../sass/style.scss */
+  /* line 3, ../sass/_container.scss */
   .content-container {
     width: 800px;
   }
 }
 @media screen and (min-width: 1000px) {
-  /* line 72, ../sass/style.scss */
+  /* line 3, ../sass/_container.scss */
   .content-container {
     width: 900px;
   }
+}
+
+/* line 8, ../sass/style.scss */
+body {
+  background-color: #2a3440;
+}
+
+/* line 12, ../sass/style.scss */
+.footer {
+  padding-top: 5px;
+  height: 100px;
+  font-size: 10px;
+}
+/* line 16, ../sass/style.scss */
+.footer .dev-tag {
+  text-align: center;
+  color: white;
+}
+/* line 19, ../sass/style.scss */
+.footer .dev-tag a {
+  color: white;
+}
+/* line 21, ../sass/style.scss */
+.footer .dev-tag a:hover {
+  text-decoration: underline;
+}
+
+/* line 28, ../sass/style.scss */
+.title {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* line 32, ../sass/style.scss */
+.big-text {
+  font-size: 60px;
+}
+
+/* line 36, ../sass/style.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 41, ../sass/style.scss */
+.content {
+  text-align: center;
+  color: white;
+  margin-top: 250px;
+}
+
+/* line 47, ../sass/style.scss */
+.welcome-img {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (min-width: 850px) {
+  /* line 47, ../sass/style.scss */
+  .welcome-img {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+/* line 56, ../sass/style.scss */
+.we-img {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (min-width: 850px) {
+  /* line 56, ../sass/style.scss */
+  .we-img {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+/* line 65, ../sass/style.scss */
+.location-map {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (min-width: 850px) {
+  /* line 65, ../sass/style.scss */
+  .location-map {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+/* line 75, ../sass/style.scss */
+.welcome-text {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 85%;
+  padding-bottom: 25px;
+}
+
+/* line 83, ../sass/style.scss */
+.menu {
+  padding-bottom: 80px;
+  position: relative;
 }
