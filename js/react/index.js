@@ -1,26 +1,26 @@
 /*
 	-- Content for index.html -> nicandcynthia.com --
-	
+
 	-- link for script in html file --
 	*<script type="text/jsx" src="js/react/index.js"></script>*
 
 */
-		// variables for content 
+		// variables for content
 		var welcome = "Welcome";
 		var about = "About";
-		var weddingevents = "Wedding Events"; 
-		var accommodations = "Accommodations";
+		var weddingevents = "Wedding Events";
+		var accommodations = "Travel & Accommodations";
 		var registry = "Registry";
 		var photos = "Photo Album";
 		// var weddingparty = "Wedding Party";
 
-		var weddingdate = "August 20, 2016";
-		var weddingtime = "12:00pm - 1:00pm";
+		var weddingdate = "June 25, 2016";
+		var weddingtime = "5:00 pm";
 		var receptiondate = weddingdate;
-		var receptiontime = "3:00pm - 7:00pm";
+		var receptiontime = "After the ceremony";
 
 		var nameheader = "Nic & Cynthia";
-	
+
 
 		// ****
 		var Welcome = React.createClass({
@@ -85,17 +85,17 @@
     			return <div>{nameheader}</div>;
 			}
 		});
-	 
+
 
 		// welcome page render content
 		// wedding date
-		React.render(<Weddingdate />, document.getElementById('welcome-wedding-date')); 
+		React.render(<Weddingdate />, document.getElementById('welcome-wedding-date'));
 		React.render(<Weddingdate />, document.getElementById('we-wedding-date'));
 		// wedding time
 		React.render(<Weddingtime />, document.getElementById('wedding-time'));
 
 		// reception date
-		React.render(<Receptiondate />, document.getElementById('we-reception-date'));		
+		React.render(<Receptiondate />, document.getElementById('we-reception-date'));
 		// reception time
 		React.render(<Receptiontime />, document.getElementById('reception-time'));
 
@@ -129,8 +129,3 @@
 		// wedding party page render content
 		// React.render(<Weddingparty />, document.getElementById('wp-title'));
 		// React.render(<Weddingparty />, document.getElementById('wp-nav'));
-
-		
-
-
-		
