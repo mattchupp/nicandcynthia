@@ -2,6 +2,18 @@
 /*
 	Variables for style.scss
 */
+/* * * * * * * * * * * * *
+				COLORS
+* * * * * * * * * * * *  */
+/* Coral */
+/* * * * * * * * * * * * *
+				Screen Size
+						and
+				Breakpoints
+* * * * * * * * * * * *  */
+/* * * * * * * * * * * * *
+			Image size
+* * * * * * * * * * * * */
 /* Image height and width for the small screen breakpoint */
 /* Image height and width for the medium screen breakpoint */
 /*
@@ -17,7 +29,7 @@
   background-color: black;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 770px) {
   /* line 18, ../sass/_navigationmenu.scss */
   .menu {
     text-align: center;
@@ -9302,13 +9314,13 @@ button.close {
 /* line 3, ../sass/_container.scss */
 .content-container {
   position: relative;
-  background-color: black;
+  background-color: #ffb296;
   height: auto;
   width: auto;
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 770px) {
   /* line 3, ../sass/_container.scss */
   .content-container {
     width: 680px;
@@ -9327,93 +9339,97 @@ button.close {
   }
 }
 
-/* line 8, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 body {
-  background-color: #2a3440;
+  background-color: #fff;
 }
 
-/* line 12, ../sass/style.scss */
+/*
+.nav li:hover {
+	background-color: silver; /* hover color of navbar
+} */
+/* line 18, ../sass/style.scss */
 .footer {
   padding-top: 5px;
   height: 100px;
   font-size: 10px;
 }
-/* line 16, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .footer .dev-tag {
   text-align: center;
   color: white;
 }
-/* line 19, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .footer .dev-tag a {
   color: white;
 }
-/* line 21, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .footer .dev-tag a:hover {
   text-decoration: underline;
 }
 
-/* line 28, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .title {
   font-family: 'Dancing Script', cursive;
 }
 
-/* line 32, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .big-text {
   font-size: 60px;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .content {
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 250px;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .welcome-img {
   height: 300px;
   width: 300px;
 }
 @media screen and (min-width: 850px) {
-  /* line 47, ../sass/style.scss */
+  /* line 53, ../sass/style.scss */
   .welcome-img {
     height: 500px;
     width: 500px;
   }
 }
 
-/* line 56, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .we-img {
   height: 300px;
   width: 300px;
 }
 @media screen and (min-width: 850px) {
-  /* line 56, ../sass/style.scss */
+  /* line 62, ../sass/style.scss */
   .we-img {
     height: 500px;
     width: 500px;
   }
 }
 
-/* line 65, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 .location-map {
   height: 300px;
   width: 300px;
 }
 @media screen and (min-width: 850px) {
-  /* line 65, ../sass/style.scss */
+  /* line 71, ../sass/style.scss */
   .location-map {
     height: 500px;
     width: 500px;
   }
 }
 
-/* line 75, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .welcome-text {
   margin-right: auto;
   margin-left: auto;
@@ -9422,7 +9438,7 @@ body {
   padding-bottom: 25px;
 }
 
-/* line 83, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .menu {
   padding-bottom: 80px;
   position: relative;

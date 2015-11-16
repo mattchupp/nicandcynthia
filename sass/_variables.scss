@@ -3,13 +3,28 @@
 */
 
 
-$screen-size-medium: 720px;
+
+/* * * * * * * * * * * * *
+				COLORS
+* * * * * * * * * * * *  */
+
+$content-color: black;
+$container-background-color: #ffb296; /* Coral */
+
+/* * * * * * * * * * * * *
+				Screen Size
+						and
+				Breakpoints
+* * * * * * * * * * * *  */
+
+$screen-size-medium: 770px;
 
 $screen-size-break-container: 850px;
 $screen-size-break-container-large: 1000px;
 
-
-$content-coler: white;
+/* * * * * * * * * * * * *
+			Image size
+* * * * * * * * * * * * */
 
 /* Image height and width for the small screen breakpoint */
 $img-small-width: 300px;
