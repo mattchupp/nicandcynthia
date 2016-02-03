@@ -10,9 +10,9 @@ body {
 	background-color: #fff;
 	background: url("../img/cityhand.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- 	background-size: cover;
+ 		 -moz-background-size: cover;
+       -o-background-size: cover;
+ 		 	    background-size: cover;
 }
 
 /*
@@ -52,7 +52,7 @@ body {
 .content {
 	text-align: center;
 	color: $content-color;
-	margin-top: 250px;
+	margin-top: 25px;
 }
 
 .welcome-img {
