@@ -7,11 +7,11 @@
 */
 		// variables for content
 		var welcome = "Welcome";
-		var about = "About";
+		// var about = "About";
 		var weddingevents = "Wedding Events";
 		var accommodations = "Travel & Accommodations";
 		var registry = "Registry";
-		var photos = "Photo Album";
+		// var photos = "Photo Album";
 		// var weddingparty = "Wedding Party";
 
 		var weddingdate = "June 25, 2016";
@@ -28,11 +28,11 @@
     			return <div>{welcome}</div>;
 			}
 		});
-		var About = React.createClass({
-			render: function() {
-    			return <div>{about}</div>;
-			}
-		});
+		// var About = React.createClass({
+		// 	render: function() {
+    // 			return <div>{about}</div>;
+		// 	}
+		// });
 		var Weddingevents = React.createClass({
 			render: function() {
     			return <div>{weddingevents}</div>;
@@ -48,11 +48,11 @@
     			return <div>{registry}</div>;
 			}
 		});
-		var Photos = React.createClass({
-			render: function() {
-    			return <div>{photos}</div>;
-			}
-		});
+		// var Photos = React.createClass({
+		// 	render: function() {
+    // 			return <div>{photos}</div>;
+		// 	}
+		// });
 /*
 		var Weddingparty = React.createClass({
 			render: function() {
@@ -107,8 +107,8 @@
 
 
 		// about page render content
-		React.render(<About />, document.getElementById('about-title'));
-		React.render(<About />, document.getElementById('about-nav'));
+		// React.render(<About />, document.getElementById('about-title'));
+		// React.render(<About />, document.getElementById('about-nav'));
 
 		// wedding events page render content
 		React.render(<Weddingevents />, document.getElementById('we-title'));
@@ -123,8 +123,8 @@
 		React.render(<Registry />, document.getElementById('registry-nav'));
 
 		// photos page render content
-		React.render(<Photos />, document.getElementById('photos-title'));
-		React.render(<Photos />, document.getElementById('photos-nav'));
+		// React.render(<Photos />, document.getElementById('photos-title'));
+		// React.render(<Photos />, document.getElementById('photos-nav'));
 
 		// wedding party page render content
 		// React.render(<Weddingparty />, document.getElementById('wp-title'));
