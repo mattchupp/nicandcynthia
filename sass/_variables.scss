@@ -9,7 +9,8 @@
 * * * * * * * * * * * *  */
 
 $content-color: black;
-$container-background-color: #ffb296; /* Coral */
+// $content-color: #ffb296;
+// $container-background-color: #ffb296; /* Coral */
 
 /* * * * * * * * * * * * *
 				Screen Size
@@ -21,6 +22,7 @@ $screen-size-medium: 770px;
 
 $screen-size-break-container: 850px;
 $screen-size-break-container-large: 1000px;
+$screen-size-break-container-extra-large: 1200px;
 
 /* * * * * * * * * * * * *
 			Image size
@@ -29,11 +31,11 @@ $screen-size-break-container-large: 1000px;
 /* Image height and width for the small screen breakpoint */
 // $img-small-width: 300px;
 // $img-small-height: 300px;
-$img-small-width: 75%;
-$img-small-height: 75%;
+$img-small-width: 70%;
+$img-small-height: 70%;
 
 /* Image height and width for the medium screen breakpoint */
 // $img-medium-width: 500px;
 // $img-medium-height: 500px;
-$img-medium-width: 75%;
-$img-medium-height: 75%;
+$img-medium-width: 70%;
+$img-medium-height: 70%;

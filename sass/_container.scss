@@ -5,7 +5,7 @@
 	// background-color: $container-background-color;
 	// -webkit-backdrop-filter: blur(5px) grayscale(60%);
 	background-color: transparent;
-	-webkit-backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(45px);
 	height: auto;
 	width: auto;
 	margin-left: auto;
@@ -21,5 +21,9 @@
 
 	@media screen and (min-width: $screen-size-break-container-large) {
 		width: 900px;
+	}
+
+	@media screen and (min-width: $screen-size-break-container-extra-large) {
+		width: 1200px;
 	}
 }
