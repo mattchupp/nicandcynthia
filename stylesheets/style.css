@@ -9313,8 +9313,8 @@ button.close {
 /* line 3, ../sass/_container.scss */
 .content-container {
   position: relative;
-  background-color: transparent;
-  -webkit-backdrop-filter: blur(45px);
+  background-color: white;
+  opacity: 0.9;
   height: auto;
   width: auto;
   margin-left: auto;
@@ -9404,40 +9404,40 @@ body {
 
 /* line 59, ../sass/style.scss */
 .welcome-img {
-  height: 70%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
 }
 @media screen and (min-width: 850px) {
   /* line 59, ../sass/style.scss */
   .welcome-img {
-    height: 70%;
-    width: 70%;
+    height: 50%;
+    width: 50%;
   }
 }
 
 /* line 68, ../sass/style.scss */
 .we-img {
-  height: 70%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
 }
 @media screen and (min-width: 850px) {
   /* line 68, ../sass/style.scss */
   .we-img {
-    height: 70%;
-    width: 70%;
+    height: 50%;
+    width: 50%;
   }
 }
 
 /* line 77, ../sass/style.scss */
 .location-map {
-  height: 70%;
-  width: 70%;
+  height: 300px;
+  width: 300px;
 }
 @media screen and (min-width: 850px) {
   /* line 77, ../sass/style.scss */
   .location-map {
-    height: 70%;
-    width: 70%;
+    height: 500px;
+    width: 500px;
   }
 }
 

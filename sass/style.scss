@@ -75,12 +75,12 @@ body {
 	}
 }
 .location-map {
-	height: $img-small-width;
-	width: $img-small-height;
+	height: $map-small-width;
+	width: $map-small-height;
 
 	@media screen and (min-width: $screen-size-break-container) {
-		height: $img-medium-width;
-		width: $img-medium-height;
+		height: $map-medium-width;
+		width: $map-medium-height;
 	}
 }
 
