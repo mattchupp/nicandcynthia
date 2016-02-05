@@ -14,10 +14,10 @@
 		// var photos = "Photo Album";
 		// var weddingparty = "Wedding Party";
 
-		var weddingdate = "June 25, 2016";
-		var weddingtime = "5:00 pm";
+		var weddingdate = "Saturday, June 25";
+		// var weddingtime = "8:00 pm";
 		var receptiondate = weddingdate;
-		var receptiontime = "After the ceremony";
+		var receptiontime = "8:00pm";
 
 		var nameheader = "Nic & Cynthia";
 
@@ -89,10 +89,10 @@
 
 		// welcome page render content
 		// wedding date
-		React.render(<Weddingdate />, document.getElementById('welcome-wedding-date'));
-		React.render(<Weddingdate />, document.getElementById('we-wedding-date'));
+		// React.render(<Weddingdate />, document.getElementById('welcome-wedding-date'));
+		// React.render(<Weddingdate />, document.getElementById('we-wedding-date'));
 		// wedding time
-		React.render(<Weddingtime />, document.getElementById('wedding-time'));
+		// React.render(<Weddingtime />, document.getElementById('wedding-time'));
 
 		// reception date
 		React.render(<Receptiondate />, document.getElementById('we-reception-date'));
