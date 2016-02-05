@@ -9313,8 +9313,7 @@ button.close {
 /* line 3, ../sass/_container.scss */
 .content-container {
   position: relative;
-  background-color: white;
-  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.7);
   height: auto;
   width: auto;
   margin-left: auto;
