@@ -9445,11 +9445,12 @@ body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: 85%;
+  width: 50%;
   padding-bottom: 25px;
+  line-height: 1.8em;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .menu {
   padding-bottom: 80px;
   position: relative;
