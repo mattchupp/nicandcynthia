@@ -7,17 +7,15 @@
 */
 		// variables for content
 		var welcome = "Welcome";
-		// var about = "About";
 		var weddingevents = "Wedding Events";
 		var accommodations = "Travel & Accommodations";
 		var registry = "Registry";
-		// var photos = "Photo Album";
-		// var weddingparty = "Wedding Party";
+
 
 		var weddingdate = "Saturday, June 25";
 		// var weddingtime = "8:00 pm";
 		var receptiondate = weddingdate;
-		var receptiontime = "8:00pm";
+		var receptiontime = "5:00pm";
 
 		var nameheader = "Nic & Cynthia";
 
