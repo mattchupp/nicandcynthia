@@ -12,10 +12,10 @@
 		var registry = "Registry";
 
 
-		var weddingdate = "Saturday, June 25";
+		// var weddingdate = "Saturday, June 25";
 		// var weddingtime = "8:00 pm";
-		var receptiondate = weddingdate;
-		var receptiontime = "5:00pm";
+		// var receptiondate = weddingdate;
+		// var receptiontime = "5:00pm";
 
 		var nameheader = "Nic & Cynthia";
 
@@ -63,21 +63,21 @@
     			return <div>{weddingdate}</div>;
 			}
 		});
-		var Receptiondate = React.createClass({
-			render: function() {
-    			return <div>{weddingdate}</div>;
-			}
-		});
-		var Weddingtime = React.createClass({
-			render: function() {
-    			return <div>{weddingtime}</div>;
-			}
-		});
-		var Receptiontime = React.createClass({
-			render: function() {
-    			return <div>{receptiontime}</div>;
-			}
-		});
+		// var Receptiondate = React.createClass({
+		// 	render: function() {
+    // 			return <div>{weddingdate}</div>;
+		// 	}
+		// });
+		// var Weddingtime = React.createClass({
+		// 	render: function() {
+    // 			return <div>{weddingtime}</div>;
+		// 	}
+		// });
+		// var Receptiontime = React.createClass({
+		// 	render: function() {
+    // 			return <div>{receptiontime}</div>;
+		// 	}
+		// });
 		var Nameheader = React.createClass({
 			render: function() {
     			return <div>{nameheader}</div>;
@@ -93,9 +93,9 @@
 		// React.render(<Weddingtime />, document.getElementById('wedding-time'));
 
 		// reception date
-		React.render(<Receptiondate />, document.getElementById('we-reception-date'));
+		// React.render(<Receptiondate />, document.getElementById('we-reception-date'));
 		// reception time
-		React.render(<Receptiontime />, document.getElementById('reception-time'));
+		// React.render(<Receptiontime />, document.getElementById('reception-time'));
 
 		React.render(<Nameheader />, document.getElementById('name-header'));
 

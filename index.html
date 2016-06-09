@@ -18,6 +18,24 @@
 	<!-- Link to index.js file // jsx file with information for webpage -->
 	<script src="js/react/index.js" type="text/jsx"></script>
 
+	<style type="text/css">
+
+		.bold {
+			font-weight: bold;
+		}
+
+		.underline {
+			text-decoration: underline;
+		}
+
+		.events {
+			list-style: none;
+			text-align: left;
+			display: inline-block;
+		}
+
+	</style>
+
 	<!-- Style.css -->
 	<link href="stylesheets/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
@@ -77,6 +95,7 @@
 	        </div>
 	        <br /> <br /> <br /> <br />
 	    </div>
+			<!-- wedding events content -->
 	    <div class="we-content">
 	    	<h1 class="title" id="we-title"></h1>
 				<br />
@@ -87,30 +106,89 @@
 					remote destination an excellent place to rejuvenate and
 					spend quality time together.
 				</div>
-	    	<h3>(Optional) Fish Boil	Dinner</h3>
+				<!-- FRIDAY -->
+				<h2>Friday Events</h2>
+				<div class="welcome-text">
+					We’ve arranged to have our Friday celebration at the legendary Red Barn.
+					It’s a (clean) red barn in a town park, and has a long history of
+					lively performances in a peaceful setting.
+					<br />
+					Due to awesome interest  attending, we’ll be having multiple exciting
+					boil-overs of delicious fish, potatoes, and onions—along with other
+					traditional picnic fare and grilled stuff.
+					<br />
+					The music portion will be on-site in the Red Barn performance space,
+					so no travel between food and music. (note: after we wrap up at
+					The Barn, <a href="http://www.birdsofchicago.com" target="_blank">Birds of Chicago</a>
+					will be playing at <a href="http://washingtonislandfiddlersgreen.com" target="_blank">Fiddler's Green</a>. Yay!)
+				</div>
+				<div class="welcome-text">
+					<h4>Timeline:</h4>
+					<ul class="events">
+						<li><span class="underline">4:30pm-6:30pm</span>: Eating (at Red Barn)</li>
+						<li><span class="underline">6:30pm-8:30pm</span>: music sharing (at Red Barn)</li>
+						<li>Afterward, Birds of Chicago,
+							live at Fiddler's Green</li>
+					</ul>
+					<br />
+					<span class="underline">Note:</span> no alcohol is permitted at
+					<a href="http://washingtonisland-wi.com/red-barn-park-gislason-public-beach/" target="_blank">Red Barn Park</a>
+					 or in the Red Barn.
+					We can start/resume drinking wine and beer afterward at Fiddler’s
+					Green for the Birds of Chicago show.
+				</div>
+
+	    	<!-- <h3>(Optional) Fish Boil	Dinner</h3>
 				<div>Friday, June 24</div>
 				<div>5:00pm</div>
 	    	<br />
 	    	<div>School House Beach</div>
 				<br />
-				<h3>Celebration Sharing &amp; Performances</h3>
+				<h3>Celebration Sharing &amp; Performances</h3> -->
 				<!-- <br /> -->
-				<div>Friday, June 24</div>
+				<!-- <div>Friday, June 24</div>
 				<div>8:00pm</div>
 				<br />
 				<div>Nelsen's Hall &amp; Bitters Pub</div>
+				<br /> -->
+
+				<!-- Saturday -->
+				<h2>Saturday Events</h2>
+				<div>The ceremony will take place at Greengate Farms (address below)</div>
 				<br />
-				<h3>Wedding!</h3>
-	    	<!-- <br /> -->
+				<div class="welcome-text">
+					<h4>Timeline:</h4>
+					<ul class="events">
+						<li><span class="underline">4:30pm</span>: Seating</li>
+						<li><span class="underline">5:00pm</span>: Ceremony</li>
+						<li><span class="underline">5:30pm</span>: Reception (and family pictures)</li>
+						<li><span class="underline">6:30pm</span>: Dinner</li>
+						<li><span class="underline">7:30pm</span>: Cake</li>
+						<li><span class="underline">8:00pm</span>: Dancing</li>
+						<li>Go "up the road..." ("downtown bars")</li>
+					</ul>
+				</div>
+
+				<!-- <h3>Wedding!</h3>
 	    	<div id="we-reception-date"></div>
-	    	<div id="reception-time"></div>
-	    	<br />
-				<div>Greengate Farm</div>
+	    	<div id="reception-time"></div> -->
+	    	<!-- <br /> -->
+				<!-- <div>Greengate Farm</div> -->
+				<br />
+				<div class="welcome-text">
+					<span class="bold">Attire</span>—Spike heels don’t do well on grassy surfaces—and most of our
+					surfaces will be grassy—so consider footware more like wedges and
+					flats. Ties and jackets are welcome, but not required
+					(“business casual” keeps coming to mind). Expect the temperature
+					to be 70°f (20°c) in the day and 50°f (10°c) at night.
+				</div>
 	    	<br /> <br />
-				<h4>School House Beach</h4>
-				<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5067.5336366016745!2d-86.93288339173027!3d45.39595748820351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d1ca453930077%3A0x2cec7f900ae17ec5!2sSchool+House+Beach+Park!5e0!3m2!1sen!2sus!4v1454715195421" frameborder="0" style="border:0" allowfullscreen></iframe>
-				<h4>Nelsen's Hall &amp; Bitters Pub</h4>
-				<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.807720530708!2d-86.93313004826672!3d45.372874978997466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d1c87a81815b7%3A0x4003d9b1557c9167!2s1201+Main+Rd%2C+Washington%2C+WI+54246!5e0!3m2!1sen!2sus!4v1454715440139" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<h4>Red Barn Park</h4>
+				<iframe class="location-map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.736796666001!2d-86.9226596844449!3d45.394479979100204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d1cb952437c99%3A0xa58cfaea5fc8ef32!2s1699+Jackson+Harbor+Rd%2C+Washington%2C+WI+54246!5e0!3m2!1sen!2sus!4v1465502880030"  frameborder="0" style="border:0" allowfullscreen></iframe>
+				<!-- <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5067.5336366016745!2d-86.93288339173027!3d45.39595748820351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d1ca453930077%3A0x2cec7f900ae17ec5!2sSchool+House+Beach+Park!5e0!3m2!1sen!2sus!4v1454715195421" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+				<!-- <h4>Nelsen's Hall &amp; Bitters Pub</h4> -->
+				<!-- <iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2802.807720530708!2d-86.93313004826672!3d45.372874978997466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d1c87a81815b7%3A0x4003d9b1557c9167!2s1201+Main+Rd%2C+Washington%2C+WI+54246!5e0!3m2!1sen!2sus!4v1454715440139" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+				<br /> <br />
 				<h4>Greengate Farm</h4>
 				<iframe class="location-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1618.0773816525634!2d-86.88245664614755!3d45.409132584371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d4d02cd090dd6c9%3A0x4a781184d2175d8d!2s2165+Swenson+Rd%2C+Washington%2C+WI+54246!5e0!3m2!1sen!2sus!4v1447712566627" frameborder="0" style="border:0" allowfullscreen></iframe>
 				<br/> <br/> <br /> <br />
